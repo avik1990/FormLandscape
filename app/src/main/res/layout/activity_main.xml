@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="in.supertroninfotech.httpwww.formlandscape.MainActivity">
+
+    <EditText
+        android:id="@+id/tv_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/tv_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address" />
+
+    <EditText
+        android:id="@+id/tv_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Home Address" />
+
+    <!--<EditText-->
+        <!--android:id="@+id/tv_four"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="Local Address" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/tv_five"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="Pincode" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/tv_six"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="Notes" />-->
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Submit" />
+    <Button
+        android:id="@+id/btn_checkval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Submit" />
+
+</LinearLayout>
